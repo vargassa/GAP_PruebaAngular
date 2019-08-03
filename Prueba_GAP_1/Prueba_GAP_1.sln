@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prueba_GAP_1", "Prueba_GAP_1\Prueba_GAP_1.csproj", "{847BA984-222C-463C-9F02-6004E1C176CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{847BA984-222C-463C-9F02-6004E1C176CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{847BA984-222C-463C-9F02-6004E1C176CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{847BA984-222C-463C-9F02-6004E1C176CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{847BA984-222C-463C-9F02-6004E1C176CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

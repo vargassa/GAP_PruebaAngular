@@ -1,0 +1,9 @@
+c:\users\avargas\documents\visual studio 2015\Projects\Prueba_GAP_1\Prueba_GAP_1\bin\Debug\Prueba_GAP_1.exe.config
+c:\users\avargas\documents\visual studio 2015\Projects\Prueba_GAP_1\Prueba_GAP_1\bin\Debug\Prueba_GAP_1.exe
+c:\users\avargas\documents\visual studio 2015\Projects\Prueba_GAP_1\Prueba_GAP_1\bin\Debug\Prueba_GAP_1.pdb
+c:\users\avargas\documents\visual studio 2015\Projects\Prueba_GAP_1\Prueba_GAP_1\obj\Debug\Prueba_GAP_1.csprojResolveAssemblyReference.cache
+c:\users\avargas\documents\visual studio 2015\Projects\Prueba_GAP_1\Prueba_GAP_1\obj\Debug\Prueba_GAP_1.Form1.resources
+c:\users\avargas\documents\visual studio 2015\Projects\Prueba_GAP_1\Prueba_GAP_1\obj\Debug\Prueba_GAP_1.Properties.Resources.resources
+c:\users\avargas\documents\visual studio 2015\Projects\Prueba_GAP_1\Prueba_GAP_1\obj\Debug\Prueba_GAP_1.csproj.GenerateResource.Cache
+c:\users\avargas\documents\visual studio 2015\Projects\Prueba_GAP_1\Prueba_GAP_1\obj\Debug\Prueba_GAP_1.exe
+c:\users\avargas\documents\visual studio 2015\Projects\Prueba_GAP_1\Prueba_GAP_1\obj\Debug\Prueba_GAP_1.pdb

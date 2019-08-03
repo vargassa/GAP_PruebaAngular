@@ -1,0 +1,34 @@
+<div class="input-group mb-3" style="width: 50%">
+    <button type="button" class="btn btn-info" (click)="HideFilter1()">First Filter</button>
+    <button type="button" class="btn btn-info" (click)="HideFilter2()">Second Filter</button>
+    <button type="button" class="btn btn-info" (click)="HideFilter3()">Third Filter</button>
+</div>
+ 
+<div class="input-group mb-3" style="width: 50%">
+    <input ng-model="idNameOfStudent" id="idNameOfStudent" type="text" class="form-control" placeholder="Only filter by name" aria-label="Recipient's username" aria-describedby="basic-addon2">
+    <input ng-model="idCourse" id="idScore" type="text" class="form-control" placeholder="Filter by score (>)" aria-label="Recipient's username" aria-describedby="basic-addon2">
+    <input ng-model="idScore" id="idCourse" type="text" class="form-control" placeholder="Filter by course" aria-label="Recipient's username" aria-describedby="basic-addon2">
+    
+    <div class="input-group-append">
+        <button type="button" class="btn btn-info" (click)="FilterStudentByName()">Filter</button>
+        <button type="button" class="btn btn-warning" (click)="ClearFilters()">Clear Filters</button>
+    </div>
+</div>
+<table class="table table-striped">
+    <tr>
+        <th>Student</th>
+        <th>Languaje</th>
+        <th>Science</th>
+        <th>SocialStudies</th>
+        <th>Maths</th>
+    </tr>
+    <tbody>
+        <tr *ngFor="let item of lista">
+            <td>{{item.Student}}</td>
+            <td>{{item.Languaje}}</td>
+            <td>{{item.Science}}</td>
+            <td>{{item.SocialStudies}}</td>
+            <td>{{item.Maths}}</td>
+        </tr>
+    </tbody> 
+</table>

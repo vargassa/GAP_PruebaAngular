@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Prueba_GAP_2.Models.StudentGrades>
+
+@{
+    ViewBag.Title = "ViewStudentsGrades";
+}
+
+<h2>ViewStudentsGrades</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Student)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Languaje)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Science)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SocialStudies)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Maths)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Student)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Languaje)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Science)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SocialStudies)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Maths)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>
